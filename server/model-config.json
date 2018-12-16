@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "employeesdb"
+  },
+  "AccessToken": {
+    "dataSource": "employeesdb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "employeesdb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "employeesdb",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "employeesdb",
+    "public": false
+  },
+  "Employee": {
+    "dataSource": "employeesdb",
+    "public": true
+  },
+  "Company": {
+    "dataSource": "employeesdb",
+    "public": true
+  },
+  "Admin": {
+    "dataSource": "employeesdb",
+    "public": true
+  }
+}
