@@ -3,14 +3,16 @@
     "name": "db",
     "connector": "memory"
   },
-  "employeesdb": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "employeesdb",
-    "password": "",
-    "name": "employeesdb",
-    "user": "",
+  
+ 
+  "heroku_5tvbwm1n": {
+    "host": "ds135714.mlab.com",
+    "port": 35714,
+    "url": "mongodb://muhammed:Muhammed1984@ds135714.mlab.com:35714/heroku_5tvbwm1n",
+    "database": "heroku_5tvbwm1n",
+    "password": "Muhammed1984",
+    "name": "heroku_5tvbwm1n",
+    "user": "muhammed",
     "connector": "mongodb"
   }
 }

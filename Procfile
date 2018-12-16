@@ -1,1 +1,1 @@
-web: slc run 
+web: slc run  
